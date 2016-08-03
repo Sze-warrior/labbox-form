@@ -1,0 +1,26 @@
+.btn { padding: 10px 0 0; color: white; text-align: center; text-decoration: none; }
+.btn.btn-orange { background: #dd7735; }
+
+.btn-instant { width: 185px; height: 30px; }
+
+.table-container { display: table; width: 100%; }
+.table-container .table-cell { display: table-cell; width: 100%; }
+
+body { margin: 0; padding: 0; font-family: "Helvetica", "Arial", "Times new roman"; }
+body section { padding: 10px 0 15px; }
+body section.labelshop-form-container { width: 330px; height: 100%; background: #202020; }
+body section.labelshop-form-container label { font-size: 13px; padding-bottom: 5px; display: block; }
+body section.labelshop-form-container label.white { color: white; }
+body section.labelshop-form-container label.green { color: #1aaf8f; }
+body section.labelshop-form-container input { width: 100%; margin-bottom: 15px; padding: 7px; font-size: 16px; }
+body section.labelshop-form-container input::-webkit-input-placeholder { /* WebKit, Blink, Edge */ color: #909; font-style: italic; font-size: 13px; }
+body section.labelshop-form-container input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #909; opacity: 1; font-style: italic; font-size: 13px; }
+body section.labelshop-form-container input::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #909; opacity: 1; font-style: italic; font-size: 13px; }
+body section.labelshop-form-container input:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #909; font-style: italic; font-size: 13px; }
+body section.labelshop-form-container select { height: 30px; width: 100%; border: 0; outline: 1px inset white; outline-offset: -1px; font-size: 15px; padding: 7px; margin-bottom: 15px; }
+body section.labelshop-form-container .grey-form-container { background: #393939; padding: 10px 15px; }
+body section.labelshop-form-container .select-form-container { padding-top: 15px; padding-bottom: 20px; }
+
+.center-block { display: block; margin-left: auto; margin-right: auto; }
+
+/*# sourceMappingURL=main.css.map */

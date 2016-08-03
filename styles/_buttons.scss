@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixins";
+
+.btn{
+	padding: 10px 0 0;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+	&.btn-orange{
+		background: $color-orange;
+	}
+}
+
+.btn-instant{
+	width: 185px;
+	height: 30px;
+}
+

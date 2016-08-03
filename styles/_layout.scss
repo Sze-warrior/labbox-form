@@ -1,0 +1,89 @@
+@import "variables";
+@import "mixins";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica", "Arial", "Times new roman";
+
+	section{
+
+		padding: 10px 0 15px ;
+
+		&.labelshop-form-container{
+			width: 330px;
+			height: 100%;
+			background: $black-bg;
+
+			label{
+				font-size: $label-font-size;
+				padding-bottom: $padding-label-bottom;
+				display: block;
+
+				&.white{
+					color: white;
+				}
+
+				&.green{
+					color: $color-green;
+				}
+			}
+
+			input{
+				width: 100%;
+				margin-bottom: 15px;
+				padding: 7px;
+				font-size: 16px;
+			
+				&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    				color:    #909;
+   					font-style: italic;
+   					font-size: 13px;
+				}
+			
+				&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   					color:    #909;
+   					opacity:  1;
+   					font-style: italic;
+   					font-size: 13px;
+				}
+			
+				&::-moz-placeholder { /* Mozilla Firefox 19+ */
+   					color:    #909;
+   					opacity:  1;
+   					font-style: italic;
+   					font-size: 13px;
+				}
+
+				&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   					color:    #909;
+   					font-style: italic;
+   					font-size: 13px;
+
+				}
+			}					
+
+			select{
+				height: 30px;
+    			width: 100%;
+    			border: 0;
+    			outline: 1px inset white; 
+    			outline-offset:-1px;
+    			font-size: 15px;
+				padding: 7px;
+				margin-bottom: 15px;
+
+			}
+
+			.grey-form-container{
+				background: $grey-container-bg;
+				padding: $form-container-padding $form-container-padding + 5;
+			}
+
+			.select-form-container{
+				padding-top: $form-container-padding + 5;
+				padding-bottom: $form-container-padding * 2;
+			}
+		}
+	}
+}
