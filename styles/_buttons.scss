@@ -8,6 +8,7 @@
 	text-decoration: none;
 	@include transition(0.5s);
     letter-spacing: 1.5px;
+    height: 30px;
 
     &:hover{
     	cursor: pointer;
@@ -34,13 +35,17 @@
 
 .btn-instant{
 	width: 185px;
-	height: 30px;
 }
 
 .btn-details-lg{
 	width: 120px;
-	height: 30px;
 }
+
+.btn-details-xl{
+	width: 220px;
+}
+
+
 
 .btn-details-sm{
 	width: 55px;
@@ -57,3 +62,5 @@
 		}
 	}
 }
+
+

@@ -4,8 +4,15 @@ $(document).ready(function(){
 	var YesBtn = $('.btn-details-sm');
 	var NoBtn = $('.empty');
 
+	$('.progress-bar-fill').css('width', '33%');
+	$('.progress-bar-fill').children('span').hide().text('33%').fadeIn('400');
+
+	$('.progress-bar-fill-66').css('width', '66%');
+	$('.progress-bar-fill-66').children('span').hide().text('66%').fadeIn('400');	
+
 	$('.btn-details-lg').on('click', function(e){
-		$(addImgDefault).children('.order-details-content, .order-details-img').hide();
+		$(this).closest('.table-cell').children('.order-add-img-container').hide();
+		$(this).closest('.table-cell').children('.added-img').show();
 		$(addImgDefault).children('.imported-img').show();
 
 		$('.order-details-img-confirmed').show();
@@ -20,6 +27,7 @@ $(document).ready(function(){
 	$(NoBtn).on('click', function(e){
 		$('textarea[name=special-details]').hide();
 		$(this).closest('.table-cell').children('.order-add-img-container').show();
+		$('.cost-contact-info').hide();
 	});
 
 });
