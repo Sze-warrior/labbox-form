@@ -11,3 +11,9 @@
     -webkit-transition: $transition;
     transition:         $transition;
 }
+
+@mixin inset-box-shadow($horizontal, $vertical, $blur, $color) {
+  -webkit-box-shadow: inset $horizontal $vertical $blur $color;
+  -moz-box-shadow: inset $horizontal $vertical $blur $color;
+  box-shadow: inset $horizontal $vertical $blur $color;
+}

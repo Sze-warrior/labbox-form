@@ -1,16 +1,30 @@
 //Color values
 $grey-container-bg: #393939;
 $black-bg: #202020;
-$color-orange: #dd7735;
+$input-placeholder-grey: #959595;
+$quote-bg-grey: #dcdcdc;
+
+$color-orange: #e57c38;
 $color-green: #1aaf8f;
 
 //Layout values
 $form-height: 370px;
 $form-width: 330px;
+$quote-green-height: 45px;
+$container-padding-base: 25px;
 
 //padding values
 $padding-label-bottom: 5px;
 $form-container-padding: 10px;
+$h3-padding-bottom: 15px;
+$p-padding-bottom: 15px;
 
 //Typography Values 
-$label-font-size: 13px;
+$label-font-size: 12px;
+$h3-base-size: 20px;
+$quote-labels-font-weight: 400;
+$value-labels-font-weight: 600;
+$quotes-container-font-size: 15px;
+
+//Textarea values
+$textarea-base-height: 80px;
