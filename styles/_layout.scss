@@ -98,40 +98,6 @@ body{
 
 			}
 
-			.progress-bar-wrapper{
-				width: 99%;
-				height: 18px;
-				background-color: $grey-container-bg;
-				padding: 3px;
-				@include border-radius(4px);
-
-				.progress-bar-fill{
-					height: 100%;
-					display: block;
-					background-color: $color-green;
-					@include border-radius(4px);
-					width: 0;
-					@include transition (0.5s);
-
-					span{
-						float: right;
-    					padding: 1px 4px;
-    					font-size: 13px;
-					}
-				}
-
-				.progress-bar-fill-66{
-					@extend .progress-bar-fill;
-					width: 33%;
-
-					span{
-						float: right;
-    					padding: 1px 4px;
-    					font-size: 13px;
-					}				
-				}
-			}
-
 			.grey-form-container{
 				background: $grey-container-bg;
 				padding: $form-container-padding $form-container-padding + 5;

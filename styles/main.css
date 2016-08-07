@@ -35,11 +35,6 @@ body section.labelshop-form-container input::-moz-placeholder { /* Mozilla Firef
 body section.labelshop-form-container input:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #959595; font-style: italic; font-size: 13px; }
 body section.labelshop-form-container input:focus { outline: none; background: #fff; border: 2px solid #1aaf8f; }
 body section.labelshop-form-container select { height: 30px; width: 100%; border: 0; outline: 1px inset white; outline-offset: -1px; font-size: 15px; padding: 7px; margin-bottom: 15px; color: #1aaf8f; }
-body section.labelshop-form-container .progress-bar-wrapper { width: 99%; height: 18px; background-color: #393939; padding: 3px; border-radius: 4px; }
-body section.labelshop-form-container .progress-bar-wrapper .progress-bar-fill, body section.labelshop-form-container .progress-bar-wrapper .progress-bar-fill-66 { height: 100%; display: block; background-color: #1aaf8f; border-radius: 4px; width: 0; -webkit-transition: 0.5s; transition: 0.5s; }
-body section.labelshop-form-container .progress-bar-wrapper .progress-bar-fill span, body section.labelshop-form-container .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
-body section.labelshop-form-container .progress-bar-wrapper .progress-bar-fill-66 { width: 33%; }
-body section.labelshop-form-container .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
 body section.labelshop-form-container .grey-form-container { background: #393939; padding: 10px 15px; margin-bottom: 15px; }
 body section.labelshop-form-container .grey-form-container h4 { margin: 0; padding-bottom: 10px; }
 body section.labelshop-form-container .grey-form-container h4.green { color: #1aaf8f; }
@@ -77,5 +72,17 @@ body section .order-details-container .order-details-img, body section .order-de
 .align-bottom { vertical-align: bottom; }
 
 .align-super { vertical-align: super; }
+
+.center-block { display: block; margin-left: auto; margin-right: auto; }
+
+.align-bottom { vertical-align: bottom; }
+
+.align-super { vertical-align: super; }
+
+.progress-bar-wrapper { width: 99%; height: 18px; background-color: #393939; padding: 3px; border-radius: 4px; }
+.progress-bar-wrapper .progress-bar-fill, .progress-bar-wrapper .progress-bar-fill-66 { height: 100%; display: block; background-color: #1aaf8f; border-radius: 4px; width: 0; -webkit-transition: 0.5s; transition: 0.5s; }
+.progress-bar-wrapper .progress-bar-fill span, .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
+.progress-bar-wrapper .progress-bar-fill-66 { width: 33%; }
+.progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
 
 /*# sourceMappingURL=main.css.map */
