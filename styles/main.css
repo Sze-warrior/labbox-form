@@ -1,4 +1,4 @@
-.btn { padding: 10px 0 0; color: white; text-align: center; text-decoration: none; -webkit-transition: 0.5s; transition: 0.5s; letter-spacing: 1.5px; height: 30px; }
+.btn { padding: 10px 0 0; color: white; text-align: center; text-decoration: none; -webkit-transition: 0.5s; transition: 0.5s; height: 30px; font-weight: 600; letter-spacing: 1px; }
 .btn:hover { cursor: pointer; }
 .btn span img { vertical-align: middle; float: right; padding-right: 6px; margin-top: 2px; }
 .btn.btn-orange { background-color: #e57c38; }
@@ -19,13 +19,14 @@
 .table-container { display: table; width: 100%; }
 .table-container .table-cell { display: table-cell; width: 100%; }
 
-body { margin: 0; padding: 0; font-family: "Helvetica", "Arial", "Times new roman"; }
-body section { padding: 10px 0 15px; }
+body { margin: 0; padding: 0; font-family: "Arial", "Helvetica", "Times new roman"; font-family: 'Open Sans', Arial, Helvetica, Times new roman, sans-serif; }
 body section.labelshop-form-container { width: 330px; height: 100%; background: #202020; color: #fff; }
+body section.labelshop-form-container h3 { font-size: 20px; padding-bottom: 15px; margin: 0; }
+body section.labelshop-form-container h4 { margin: 0; padding-bottom: 10px; }
+body section.labelshop-form-container h4.green { color: #1aaf8f; }
 body section.labelshop-form-container a { text-decoration: none; }
 body section.labelshop-form-container p { font-size: 13px; margin: 0; padding-bottom: 15px; }
-body section.labelshop-form-container h3 { font-size: 20px; padding-bottom: 15px; margin: 0; }
-body section.labelshop-form-container label { font-size: 12px; padding-bottom: 5px; display: block; }
+body section.labelshop-form-container label { font-size: 12px; padding-bottom: 8px; display: block; }
 body section.labelshop-form-container label.white { color: white; }
 body section.labelshop-form-container label.green { color: #1aaf8f; }
 body section.labelshop-form-container input { width: 100%; margin-bottom: 15px; padding: 7px; font-size: 16px; }
@@ -35,9 +36,14 @@ body section.labelshop-form-container input::-moz-placeholder { /* Mozilla Firef
 body section.labelshop-form-container input:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #959595; font-style: italic; font-size: 13px; }
 body section.labelshop-form-container input:focus { outline: none; background: #fff; border: 2px solid #1aaf8f; }
 body section.labelshop-form-container select { height: 30px; width: 100%; border: 0; outline: 1px inset white; outline-offset: -1px; font-size: 15px; padding: 7px; margin-bottom: 15px; color: #1aaf8f; }
-body section.labelshop-form-container .grey-form-container { background: #393939; padding: 10px 15px; margin-bottom: 15px; }
-body section.labelshop-form-container .grey-form-container h4 { margin: 0; padding-bottom: 10px; }
-body section.labelshop-form-container .grey-form-container h4.green { color: #1aaf8f; }
+body section.labelshop-form-container textarea[name=special-details] { width: 100%; height: 80px; resize: none; margin-top: 10px; padding: 5px; font-size: 12px; display: none; color: #959595; }
+body section.labelshop-form-container textarea[name=special-details]:focus { outline: none; color: black; }
+body section.labelshop-form-container ul { list-style: none; padding: 0; margin: 0; }
+body section.labelshop-form-container ul li { padding: 10px 0 0; display: inline-block; color: #000; }
+body section.labelshop-form-container ul li span { vertical-align: super; font-size: 15px; }
+body section.labelshop-form-container ul li span.quote-labels { padding: 0 5px; font-weight: 400; }
+body section.labelshop-form-container ul li span.quote-values { font-weight: 600; }
+body section.labelshop-form-container .grey-form-container { background: #393939; padding: 10px; margin-bottom: 15px; }
 body section.labelshop-form-container .grey-form-container .dimensions-form input { width: 89%; }
 body section.labelshop-form-container .grey-form-container .dimensions-form img, body section.labelshop-form-container .grey-form-container .dimensions-form input { float: left; display: inline-block; }
 body section.labelshop-form-container .select-form-container { padding-bottom: 20px; }
@@ -45,11 +51,6 @@ body section.labelshop-form-container .quote-form-container { padding: 10px; bac
 body section.labelshop-form-container .quote-form-container .quote-order-icons { width: 24px; height: 24px; }
 body section.labelshop-form-container .quote-form-container .quote-order-icons, body section.labelshop-form-container .quote-form-container .quote-labels { float: left; display: inline-block; }
 body section.labelshop-form-container .quote-form-container h1 { margin: 0; font-size: 27px; font-weight: 100; color: #1aaf8f; }
-body section.labelshop-form-container .quote-form-container ul { list-style: none; padding: 0; margin: 0; }
-body section.labelshop-form-container .quote-form-container ul li { padding: 10px 0 0; display: inline-block; color: #000; }
-body section.labelshop-form-container .quote-form-container ul li span { vertical-align: super; font-size: 15px; }
-body section.labelshop-form-container .quote-form-container ul li span.quote-labels { padding: 0 5px; font-weight: 400; }
-body section.labelshop-form-container .quote-form-container ul li span.quote-values { font-weight: 600; }
 body section.labelshop-form-container .quote-form-container .quote-green { background-color: #1aaf8f; margin: 10px -10px -10px; padding: 3px 10px 0; }
 body section.labelshop-form-container .quote-form-container .quote-green .quote-green-content { width: 230px; padding-left: 10px; padding-bottom: 11px; }
 body section.labelshop-form-container .quote-form-container .quote-green .quote-green-content span { line-height: 12px; color: #fff; }
@@ -61,10 +62,7 @@ body section .order-details-container .order-details-content p.cost-contact-info
 body section .order-details-container .order-details-content.back-link { padding-top: 10px; }
 body section .order-details-container .order-details-content.back-link a { font-size: 19px; font-weight: 600; letter-spacing: 1px; text-decoration: none; font-weight: 600; color: #e57c38; -webkit-transition: 0.5s; transition: 0.5s; }
 body section .order-details-container .order-details-content.back-link a:hover { color: #b85718; -webkit-transition: 0.5s; transition: 0.5s; }
-body section .order-details-container .order-details-button { float: right; }
-body section .order-details-container .order-details-button .order-details-img-confirmed { padding-bottom: 10px; font-weight: 600; display: none; }
-body section .order-details-container textarea[name=special-details] { width: 100%; height: 80px; resize: none; margin-top: 10px; padding: 5px; font-size: 12px; display: none; color: #959595; }
-body section .order-details-container textarea[name=special-details]:focus { outline: none; color: black; }
+body section .order-details-container .order-details-img-confirmed { padding-bottom: 10px; font-weight: 600; display: none; letter-spacing: 1px; }
 body section .order-details-container .order-details-img, body section .order-details-container .order-add-img-container, body section .order-details-container .order-details-content { float: left; display: inline-block; }
 
 .center-block { display: block; margin-left: auto; margin-right: auto; }
@@ -73,16 +71,19 @@ body section .order-details-container .order-details-img, body section .order-de
 
 .align-super { vertical-align: super; }
 
+.float-right { float: right; }
+
 .center-block { display: block; margin-left: auto; margin-right: auto; }
 
 .align-bottom { vertical-align: bottom; }
 
 .align-super { vertical-align: super; }
 
+.float-right { float: right; }
+
 .progress-bar-wrapper { width: 99%; height: 18px; background-color: #393939; padding: 3px; border-radius: 4px; }
 .progress-bar-wrapper .progress-bar-fill, .progress-bar-wrapper .progress-bar-fill-66 { height: 100%; display: block; background-color: #1aaf8f; border-radius: 4px; width: 0; -webkit-transition: 0.5s; transition: 0.5s; }
 .progress-bar-wrapper .progress-bar-fill span, .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
 .progress-bar-wrapper .progress-bar-fill-66 { width: 33%; }
 .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
-
 /*# sourceMappingURL=main.css.map */

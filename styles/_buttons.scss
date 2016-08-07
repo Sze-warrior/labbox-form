@@ -7,8 +7,9 @@
 	text-align: center;
 	text-decoration: none;
 	@include transition(0.5s);
-    letter-spacing: 1.5px;
     height: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
 
     &:hover{
     	cursor: pointer;
@@ -71,5 +72,3 @@
 		}
 	}
 }
-
-

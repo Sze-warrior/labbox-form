@@ -4,17 +4,30 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: "Helvetica", "Arial", "Times new roman";
-
+	font-family: "Arial", "Helvetica", "Times new roman";
+	font-family: 'Open Sans', Arial, Helvetica, Times new roman, sans-serif;
 	section{
-
-		padding: 10px 0 15px;
 
 		&.labelshop-form-container{
 			width: 330px;
 			height: 100%;
 			background: $black-bg;
 			color: #fff;
+
+			h3{
+				font-size: $h3-base-size;
+				padding-bottom: $h3-padding-bottom;
+				margin: 0;
+			}
+
+			h4{
+				margin: 0;
+    			padding-bottom: 10px;
+
+    			&.green{
+    				color: $color-green;
+    			}
+			}			
 
 			a{
 				text-decoration: none;
@@ -24,12 +37,6 @@ body{
 				font-size: 13px;
 				margin: 0;
 				padding-bottom: $p-padding-bottom;
-			}
-
-			h3{
-				font-size: $h3-base-size;
-				padding-bottom: $h3-padding-bottom;
-				margin: 0;
 			}
 
 			label{
@@ -95,22 +102,54 @@ body{
 				padding: 7px;
 				margin-bottom: 15px;
 				color: $color-green;
-
 			}
+
+			textarea[name=special-details]{
+				width: 100%;
+				height: $textarea-base-height;
+				resize: none;
+				margin-top: $form-container-padding;
+				padding: $form-container-padding - 5;
+				font-size: $quotes-container-font-size - 3;
+				display: none;
+				color: $input-placeholder-grey;
+
+				&:focus{
+    				outline: none;
+    				color: black;
+				}
+			}
+
+			ul{ 
+				list-style: none;
+				padding: 0;
+				margin: 0;
+
+				li{
+					padding: 10px 0 0;
+					display: inline-block;
+					color: #000;
+
+					span{
+						vertical-align: super;
+						font-size: $quotes-container-font-size;
+
+						&.quote-labels{
+							padding: 0 5px;
+							font-weight: $quote-labels-font-weight;
+						}
+
+						&.quote-values{
+							font-weight: $value-labels-font-weight;								
+						}
+					}
+				}
+			}			
 
 			.grey-form-container{
 				background: $grey-container-bg;
-				padding: $form-container-padding $form-container-padding + 5;
+				padding: $form-container-padding;
 				margin-bottom: $form-container-padding + 5;
-
-				h4{
-					margin: 0;
-    				padding-bottom: 10px;
-
-    				&.green{
-    					color: $color-green;
-    				}
-				}
 
 				.dimensions-form{
 
@@ -149,32 +188,6 @@ body{
 					font-size: 27px;
 					font-weight: 100;
 					color: $color-green;					
-				}
-
-				ul{ 
-					list-style: none;
-					padding: 0;
-					margin: 0;
-
-					li{
-						padding: 10px 0 0;
-						display: inline-block;
-						color: #000;
-
-						span{
-							vertical-align: super;
-							font-size: $quotes-container-font-size;
-
-							&.quote-labels{
-								padding: 0 5px;
-								font-weight: $quote-labels-font-weight;
-							}
-
-							&.quote-values{
-								font-weight: $value-labels-font-weight;								
-							}
-						}
-					}
 				}
 
 				.quote-green{
@@ -246,30 +259,12 @@ body{
 				}
 			}
 
-			.order-details-button{
-				float: right;
 
-				.order-details-img-confirmed{
-					padding-bottom: $form-container-padding;
-					font-weight: $font-weight-600;
-					display: none;
-				}
-			}
-
-			textarea[name=special-details]{
-				width: 100%;
-				height: $textarea-base-height;
-				resize: none;
-				margin-top: $form-container-padding;
-				padding: $form-container-padding - 5;
-				font-size: $quotes-container-font-size - 3;
+			.order-details-img-confirmed{
+				padding-bottom: $form-container-padding;
+				font-weight: $font-weight-600;
 				display: none;
-				color: $input-placeholder-grey;
-
-				&:focus{
-    				outline: none;
-    				color: black;
-				}
+				letter-spacing: 1px;
 			}
 
 			.order-details-img, .order-add-img-container, .order-details-content{
