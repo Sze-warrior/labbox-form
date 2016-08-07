@@ -122,7 +122,8 @@ body{
 
 				.progress-bar-fill-66{
 					@extend .progress-bar-fill;
-					
+					width: 33%;
+
 					span{
 						float: right;
     					padding: 1px 4px;
@@ -145,6 +146,17 @@ body{
     				}
 				}
 
+				.dimensions-form{
+
+					input{
+						width: 89%;
+					}
+
+					img, input{
+						float: left;
+						display: inline-block;
+					}			
+				}
 			}
 
 			.select-form-container{
@@ -159,7 +171,11 @@ body{
 				.quote-order-icons{
 					width: 24px;
 					height: 24px;
-					background-color: #000;
+				}
+
+				.quote-order-icons, .quote-labels{
+					float: left;
+					display: inline-block
 				}
 
 				h1{
@@ -204,6 +220,11 @@ body{
     					width: $form-width - 100;
     					padding-left: $form-container-padding;
     					padding-bottom: 11px;
+
+    					span{
+    						line-height: 12px;
+    						color: #fff;
+    					}
     				}
 				}
 			}
@@ -216,7 +237,7 @@ body{
 				
 				.imported-img{
 					width: 110px;
-					height: 70px;
+					height: 73px;
 					background-color: $color-green;
 					display: none;
 				}
@@ -225,7 +246,6 @@ body{
 			.order-details-img{
 				width: 30px;
 				height: 30px;
-				background-color: $color-green;
 				margin-right: 18px;
 			}
 
@@ -243,13 +263,18 @@ body{
 					padding-top: 10px;
 
 					a{
+
+						font-size: 19px;
+    					font-weight: 600;
+    					letter-spacing: 1px;
 						text-decoration: none;
-    					font-size: 25px;
     					font-weight: $font-weight-600;
     					color: $color-orange;
+						@include transition (0.5s);
 
     					&:hover{
     						color: darken($color-orange, 15%);
+							@include transition (0.5s);
     					}
 					}
 				}
@@ -271,7 +296,7 @@ body{
 				resize: none;
 				margin-top: $form-container-padding;
 				padding: $form-container-padding - 5;
-				font-size: $quotes-container-font-size;
+				font-size: $quotes-container-font-size - 3;
 				display: none;
 				color: $input-placeholder-grey;
 

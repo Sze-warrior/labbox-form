@@ -14,6 +14,15 @@
     	cursor: pointer;
     }
 
+    span{
+    	img{
+    		vertical-align: middle;
+    		float: right;
+    		padding-right: 6px;
+    		margin-top: 2px;
+		}
+    }
+
 	&.btn-orange{
 		background-color: $color-orange;
 

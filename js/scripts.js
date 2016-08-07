@@ -15,6 +15,8 @@ $(document).ready(function(){
 		$(this).closest('.table-cell').children('.added-img').show();
 		$(addImgDefault).children('.imported-img').show();
 
+		$('.quote-green').hide();
+
 		$('.order-details-img-confirmed').show();
 	});
 
