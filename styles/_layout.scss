@@ -9,7 +9,7 @@ body{
 	section{
 
 		&.labelshop-form-container{
-			width: 330px;
+			width: $form-width;
 			height: 100%;
 			background: $black-bg;
 			color: #fff;
@@ -22,7 +22,7 @@ body{
 
 			h4{
 				margin: 0;
-    			padding-bottom: 10px;
+    			padding-bottom: $form-container-padding;
 
     			&.green{
     				color: $color-green;
@@ -34,9 +34,8 @@ body{
 			}
 
 			p{
-				font-size: 13px;
+				font-size: $font-size-base - 2;
 				margin: 0;
-				padding-bottom: $p-padding-bottom;
 			}
 
 			label{
@@ -57,32 +56,32 @@ body{
 				width: 100%;
 				margin-bottom: 15px;
 				padding: 7px;
-				font-size: 16px;
+				font-size: $font-size-base + 1;
 			
 				&::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     				color:    $input-placeholder-grey;
    					font-style: italic;
-   					font-size: 13px;
+   					font-size: $input-size-base;
 				}
 			
 				&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     				color:    $input-placeholder-grey;
    					opacity:  1;
    					font-style: italic;
-   					font-size: 13px;
+   					font-size: $input-size-base;
 				}
 			
 				&::-moz-placeholder { /* Mozilla Firefox 19+ */
     				color:    $input-placeholder-grey;
    					opacity:  1;
    					font-style: italic;
-   					font-size: 13px;
+   					font-size: $input-size-base;
 				}
 
 				&:-ms-input-placeholder { /* Internet Explorer 10-11 */
     				color:    $input-placeholder-grey;
    					font-style: italic;
-   					font-size: 13px;
+   					font-size: $input-size-base;
 				}
 
 				&:focus{
@@ -193,7 +192,7 @@ body{
 				.quote-green{
 					background-color: $color-green;
 					margin: $form-container-padding -10px -10px;
-    				padding: 3px $form-container-padding 0;
+    				padding: 0 $form-container-padding 0;
 
     				.quote-green-content{
     					width: $form-width - 100;
@@ -203,6 +202,7 @@ body{
     					span{
     						line-height: 12px;
     						color: #fff;
+    						font-weight: 500;
     					}
     				}
 				}
@@ -265,6 +265,10 @@ body{
 				font-weight: $font-weight-600;
 				display: none;
 				letter-spacing: 1px;
+
+				span{
+					font-size: 18px;
+				}
 			}
 
 			.order-details-img, .order-add-img-container, .order-details-content{

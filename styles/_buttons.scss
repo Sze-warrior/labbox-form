@@ -2,7 +2,7 @@
 @import "mixins";
 
 .btn{
-	padding: 10px 0 0;
+	padding: $form-container-padding 0 0;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -19,7 +19,7 @@
     	img{
     		vertical-align: middle;
     		float: right;
-    		padding-right: 6px;
+    		padding-right: 10px;
     		margin-top: 2px;
 		}
     }
@@ -45,6 +45,7 @@
 
 .btn-instant{
 	width: 185px;
+	padding-bottom: 5px;
 }
 
 .btn-details-lg{

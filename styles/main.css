@@ -1,12 +1,12 @@
 .btn { padding: 10px 0 0; color: white; text-align: center; text-decoration: none; -webkit-transition: 0.5s; transition: 0.5s; height: 30px; font-weight: 600; letter-spacing: 1px; }
 .btn:hover { cursor: pointer; }
-.btn span img { vertical-align: middle; float: right; padding-right: 6px; margin-top: 2px; }
+.btn span img { vertical-align: middle; float: right; padding-right: 10px; margin-top: 2px; }
 .btn.btn-orange { background-color: #e57c38; }
 .btn.btn-orange:hover { background-color: #cf621b; -webkit-transition: 0.2s; transition: 0.2s; }
 .btn.btn-green { background-color: #1aaf8f; }
 .btn.btn-green:hover { background-color: #13836b; -webkit-transition: 0.2s; transition: 0.2s; }
 
-.btn-instant { width: 185px; }
+.btn-instant { width: 185px; padding-bottom: 5px; }
 
 .btn-details-lg { width: 120px; }
 
@@ -25,8 +25,8 @@ body section.labelshop-form-container h3 { font-size: 20px; padding-bottom: 15px
 body section.labelshop-form-container h4 { margin: 0; padding-bottom: 10px; }
 body section.labelshop-form-container h4.green { color: #1aaf8f; }
 body section.labelshop-form-container a { text-decoration: none; }
-body section.labelshop-form-container p { font-size: 13px; margin: 0; padding-bottom: 15px; }
-body section.labelshop-form-container label { font-size: 12px; padding-bottom: 8px; display: block; }
+body section.labelshop-form-container p { font-size: 13px; margin: 0; }
+body section.labelshop-form-container label { font-size: 12px; padding-bottom: 7px; display: block; }
 body section.labelshop-form-container label.white { color: white; }
 body section.labelshop-form-container label.green { color: #1aaf8f; }
 body section.labelshop-form-container input { width: 100%; margin-bottom: 15px; padding: 7px; font-size: 16px; }
@@ -51,9 +51,9 @@ body section.labelshop-form-container .quote-form-container { padding: 10px; bac
 body section.labelshop-form-container .quote-form-container .quote-order-icons { width: 24px; height: 24px; }
 body section.labelshop-form-container .quote-form-container .quote-order-icons, body section.labelshop-form-container .quote-form-container .quote-labels { float: left; display: inline-block; }
 body section.labelshop-form-container .quote-form-container h1 { margin: 0; font-size: 27px; font-weight: 100; color: #1aaf8f; }
-body section.labelshop-form-container .quote-form-container .quote-green { background-color: #1aaf8f; margin: 10px -10px -10px; padding: 3px 10px 0; }
+body section.labelshop-form-container .quote-form-container .quote-green { background-color: #1aaf8f; margin: 10px -10px -10px; padding: 0 10px 0; }
 body section.labelshop-form-container .quote-form-container .quote-green .quote-green-content { width: 230px; padding-left: 10px; padding-bottom: 11px; }
-body section.labelshop-form-container .quote-form-container .quote-green .quote-green-content span { line-height: 12px; color: #fff; }
+body section.labelshop-form-container .quote-form-container .quote-green .quote-green-content span { line-height: 12px; color: #fff; font-weight: 500; }
 body section .order-details-container { padding-bottom: 25px; }
 body section .order-details-container .order-add-img-container .imported-img { width: 110px; height: 73px; background-color: #1aaf8f; display: none; }
 body section .order-details-container .order-details-img { width: 30px; height: 30px; margin-right: 18px; }
@@ -63,6 +63,7 @@ body section .order-details-container .order-details-content.back-link { padding
 body section .order-details-container .order-details-content.back-link a { font-size: 19px; font-weight: 600; letter-spacing: 1px; text-decoration: none; font-weight: 600; color: #e57c38; -webkit-transition: 0.5s; transition: 0.5s; }
 body section .order-details-container .order-details-content.back-link a:hover { color: #b85718; -webkit-transition: 0.5s; transition: 0.5s; }
 body section .order-details-container .order-details-img-confirmed { padding-bottom: 10px; font-weight: 600; display: none; letter-spacing: 1px; }
+body section .order-details-container .order-details-img-confirmed span { font-size: 18px; }
 body section .order-details-container .order-details-img, body section .order-details-container .order-add-img-container, body section .order-details-container .order-details-content { float: left; display: inline-block; }
 
 .center-block { display: block; margin-left: auto; margin-right: auto; }
@@ -86,4 +87,5 @@ body section .order-details-container .order-details-img, body section .order-de
 .progress-bar-wrapper .progress-bar-fill span, .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
 .progress-bar-wrapper .progress-bar-fill-66 { width: 33%; }
 .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
+
 /*# sourceMappingURL=main.css.map */
