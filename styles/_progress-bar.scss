@@ -8,6 +8,7 @@
 	background-color: $grey-container-bg;
 	padding: 3px;
 	@include border-radius(4px);
+	color: #000;
 
 		.progress-bar-fill{
 			height: 100%;

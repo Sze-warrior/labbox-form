@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
 	var addImgDefault = $('.order-add-img-container');
-	var YesBtn = $('.btn-details-sm');
-	var NoBtn = $('.empty');
+	var YesBtn = $('#yes');
+	var NoBtn = $('#no');
 
 	$('.progress-bar-fill').css('width', '33%');
 	$('.progress-bar-fill').children('span').hide().text('33%').fadeIn('400');

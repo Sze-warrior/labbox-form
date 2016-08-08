@@ -1,10 +1,10 @@
-.btn { padding: 10px 0 0; color: white; text-align: center; text-decoration: none; -webkit-transition: 0.5s; transition: 0.5s; height: 30px; font-weight: 600; letter-spacing: 1px; }
+.btn { padding: 10px 0 0; color: white; text-align: center; text-decoration: none; -webkit-transition: 0.5s; transition: 0.5s; height: 28px; font-weight: 600; letter-spacing: 1px; box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.45); }
 .btn:hover { cursor: pointer; }
 .btn span img { vertical-align: middle; float: right; padding-right: 10px; margin-top: 2px; }
 .btn.btn-orange { background-color: #e57c38; }
-.btn.btn-orange:hover { background-color: #cf621b; -webkit-transition: 0.2s; transition: 0.2s; }
+.btn.btn-orange:hover { background-color: #ac161c; -webkit-transition: 0.2s; transition: 0.2s; }
 .btn.btn-green { background-color: #1aaf8f; }
-.btn.btn-green:hover { background-color: #13836b; -webkit-transition: 0.2s; transition: 0.2s; }
+.btn.btn-green:hover { background-color: #17997d; -webkit-transition: 0.2s; transition: 0.2s; box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5); }
 
 .btn-instant { width: 185px; padding-bottom: 5px; }
 
@@ -12,9 +12,8 @@
 
 .btn-details-xl { width: 220px; }
 
-.btn-details-sm { width: 55px; height: 30px; }
-.btn-details-sm.empty { background-color: transparent; border: 2px solid #e57c38; height: 26px; margin-right: 7px; }
-.btn-details-sm.empty:hover { background-color: #e57c38, 20%; }
+.btn-details-sm { width: 51px; height: 28px; margin-left: 10px; -webkit-transition: 0.2s; transition: 0.2s; border: 2px solid #e57c38; box-shadow: inset 0 0 0 transparent; }
+.btn-details-sm:hover { background-color: transparent !important; box-shadow: inset 0 0 0 transparent; border: 2px solid #e57c38; -webkit-transition: 0.2s; transition: 0.2s; }
 
 .table-container { display: table; width: 100%; }
 .table-container .table-cell { display: table-cell; width: 100%; }
@@ -35,6 +34,7 @@ body section.labelshop-form-container input:-moz-placeholder { /* Mozilla Firefo
 body section.labelshop-form-container input::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #959595; opacity: 1; font-style: italic; font-size: 13px; }
 body section.labelshop-form-container input:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #959595; font-style: italic; font-size: 13px; }
 body section.labelshop-form-container input:focus { outline: none; background: #fff; border: 2px solid #1aaf8f; }
+body section.labelshop-form-container input.name { width: 90%; }
 body section.labelshop-form-container select { height: 30px; width: 100%; border: 0; outline: 1px inset white; outline-offset: -1px; font-size: 15px; padding: 7px; margin-bottom: 15px; color: #1aaf8f; }
 body section.labelshop-form-container textarea[name=special-details] { width: 100%; height: 80px; resize: none; margin-top: 10px; padding: 5px; font-size: 12px; display: none; color: #959595; }
 body section.labelshop-form-container textarea[name=special-details]:focus { outline: none; color: black; }
@@ -46,6 +46,13 @@ body section.labelshop-form-container ul li span.quote-values { font-weight: 600
 body section.labelshop-form-container .grey-form-container { background: #393939; padding: 10px; margin-bottom: 15px; }
 body section.labelshop-form-container .grey-form-container .dimensions-form input { width: 89%; }
 body section.labelshop-form-container .grey-form-container .dimensions-form img, body section.labelshop-form-container .grey-form-container .dimensions-form input { float: left; display: inline-block; }
+body section.labelshop-form-container .grey-form-container .credit-card-form-container { width: 21.3%; margin-right: 15px; }
+body section.labelshop-form-container .grey-form-container .credit-card-form-container:last-child { margin-right: 0; }
+body section.labelshop-form-container .grey-form-container .credit-card-form-container, body section.labelshop-form-container .grey-form-container .credit-card-form-container { float: left; display: inline-block; }
+body section.labelshop-form-container .grey-form-container .expire-card-date-container { width: 30%; margin-right: 15px; }
+body section.labelshop-form-container .grey-form-container .expire-card-date-container input { height: 31px; }
+body section.labelshop-form-container .grey-form-container .expire-card-date-container:last-child { margin-right: 0; margin-top: -22px; }
+body section.labelshop-form-container .grey-form-container .expire-card-date-container, body section.labelshop-form-container .grey-form-container .expire-card-date-container { float: left; display: inline-block; }
 body section.labelshop-form-container .select-form-container { padding-bottom: 20px; }
 body section.labelshop-form-container .quote-form-container { padding: 10px; background: #dcdcdc; margin-bottom: 25px; }
 body section.labelshop-form-container .quote-form-container .quote-order-icons { width: 24px; height: 24px; }
@@ -82,7 +89,7 @@ body section .order-details-container .order-details-img, body section .order-de
 
 .float-right { float: right; }
 
-.progress-bar-wrapper { width: 99%; height: 18px; background-color: #393939; padding: 3px; border-radius: 4px; }
+.progress-bar-wrapper { width: 99%; height: 18px; background-color: #393939; padding: 3px; border-radius: 4px; color: #000; }
 .progress-bar-wrapper .progress-bar-fill, .progress-bar-wrapper .progress-bar-fill-66 { height: 100%; display: block; background-color: #1aaf8f; border-radius: 4px; width: 0; -webkit-transition: 0.5s; transition: 0.5s; }
 .progress-bar-wrapper .progress-bar-fill span, .progress-bar-wrapper .progress-bar-fill-66 span { float: right; padding: 1px 4px; font-size: 13px; }
 .progress-bar-wrapper .progress-bar-fill-66 { width: 33%; }

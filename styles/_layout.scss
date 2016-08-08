@@ -89,6 +89,10 @@ body{
   					background: #fff;
   					border: 2px solid #1aaf8f;
 				}
+
+				&.name{
+					width: 90%;
+				}
 			}					
 
 			select{
@@ -161,6 +165,40 @@ body{
 						display: inline-block;
 					}			
 				}
+
+				.credit-card-form-container{
+					width: 21.3%;
+					margin-right: 15px;
+
+					&:last-child{
+						margin-right: 0;
+					}
+				}
+
+				.credit-card-form-container,.credit-card-form-container{
+					float: left;
+					display: inline-block;
+				}
+
+				.expire-card-date-container{
+					width: 30%;
+					margin-right: 15px;	
+
+					input{
+						height: 31px;
+					}	
+					
+					&:last-child{
+						margin-right: 0;
+						margin-top: -22px;
+					}		
+				}
+
+				.expire-card-date-container,.expire-card-date-container{
+					float: left;
+					display: inline-block;
+				}
+
 			}
 
 			.select-form-container{
