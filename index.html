@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body style="background-color: #202020; padding: 20px;">
 
 	<section class="labelshop-form-container">
 		<div class="grey-form-container">		
@@ -38,6 +38,7 @@
 			</div>
 			<!-- Form field for the Width -->			
 
+			<!-- Form field for the Height -->			
 			<div class="table-container">
 				<div class="table-cell">
 					<label class="white">ENTER HEIGHT</label>
@@ -46,13 +47,18 @@
 						<input placeholder="eg. 200mm">
 					</div>											
 				</div>
-			</div>		
+			</div>
+			<!-- Form field for the Height -->			
+
 		</div>
 
 		<div class="select-form-container">
 			<div class="table-container">
+
 				<div class="table-cell">
 					<label class="green">STOCK TYPE</label>
+					
+					<!-- Select field for the Stock type -->						
 					<select>
  						<option value="">Please Select</option>
  						<option value="Gloss White">Gloss White</option>
@@ -62,34 +68,36 @@
  						<option value="Clear">Clear</option>
  						<option value="Metallic">Metallic</option>
  						<option value="Radiant">Radiant</option>
-					</select>		
+					</select>	
+					<!-- Select field for the Stock type -->						
+
 				</div>
 			</div> 
 
 			<div class="table-container">
 				<div class="table-cell">
 					<label class="green">SPECIAL FINISH</label>
+	
+					<!-- Select field for the Special Finish type -->				
 					<select>
  						<option value="">Please Select</option>
  						<option value="Laminate">Laminate</option>
  						<option value="Varnish">Varnish</option>
 					</select>	
+					<!-- Select field for the Stock type -->						
 				</div>
 			</div>			
 		</div>
 
 			<div class="table-container">
 				<div class="table-cell">
+
+					<!-- Button for the next page -->				
 					<a href="quote.html" class="btn btn-orange btn-instant center-block">Get Instant Quote</a>	
+					<!-- Button for the next page -->				
+
 				</div>
 			</div>
 	</section>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script>
-		if (typeof jQuery == 'undefined') {
-			document.write('<script src="js/jquery.min.js">\x3C/script>');
-		}
-	</script>
 </body>
 </html>
