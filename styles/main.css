@@ -34,7 +34,7 @@ body section.labelshop-form-container input:-moz-placeholder { /* Mozilla Firefo
 body section.labelshop-form-container input::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #959595; opacity: 1; font-style: italic; font-size: 13px; }
 body section.labelshop-form-container input:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #959595; font-style: italic; font-size: 13px; }
 body section.labelshop-form-container input:focus { outline: none; background: #fff; border: 2px solid #1aaf8f; }
-body section.labelshop-form-container input.name { width: 90%; }
+body section.labelshop-form-container input.name { width: 95%; }
 body section.labelshop-form-container select { height: 30px; width: 100%; border: 0; outline: 1px inset white; outline-offset: -1px; font-size: 15px; padding: 7px; margin-bottom: 15px; color: #1aaf8f; }
 body section.labelshop-form-container textarea[name=special-details] { width: 100%; height: 80px; resize: none; margin-top: 10px; padding: 5px; font-size: 12px; display: none; color: #959595; }
 body section.labelshop-form-container textarea[name=special-details]:focus { outline: none; color: black; }
@@ -66,9 +66,10 @@ body section .order-details-container .order-add-img-container .imported-img { w
 body section .order-details-container .order-details-img { width: 30px; height: 30px; margin-right: 18px; }
 body section .order-details-container .order-details-content { font-size: 13px; max-width: 130px; }
 body section .order-details-container .order-details-content p.cost-contact-info { width: 160px; font-size: 11px; }
-body section .order-details-container .order-details-content.back-link { padding-top: 10px; }
-body section .order-details-container .order-details-content.back-link a { font-size: 19px; font-weight: 600; letter-spacing: 1px; text-decoration: none; font-weight: 600; color: #e57c38; -webkit-transition: 0.5s; transition: 0.5s; }
-body section .order-details-container .order-details-content.back-link a:hover { color: #b85718; -webkit-transition: 0.5s; transition: 0.5s; }
+body section .order-details-container .order-details-content.back-link, body section .order-details-container .order-details-content.save-quote { padding-top: 10px; }
+body section .order-details-container .order-details-content.back-link a, body section .order-details-container .order-details-content.save-quote a { font-size: 16px; font-weight: 600; letter-spacing: 1px; text-decoration: none; font-weight: 600; color: #e57c38; -webkit-transition: 0.5s; transition: 0.5s; }
+body section .order-details-container .order-details-content.back-link a:hover, body section .order-details-container .order-details-content.save-quote a:hover { color: #b85718; -webkit-transition: 0.5s; transition: 0.5s; }
+body section .order-details-container .order-details-content.save-quote { width: 100%; padding-top: 12px; }
 body section .order-details-container .order-details-img-confirmed { padding-bottom: 10px; font-weight: 600; display: none; letter-spacing: 1px; }
 body section .order-details-container .order-details-img-confirmed span { font-size: 18px; }
 body section .order-details-container .order-details-img, body section .order-details-container .order-add-img-container, body section .order-details-container .order-details-content { float: left; display: inline-block; }
@@ -81,6 +82,8 @@ body section .order-details-container .order-details-img, body section .order-de
 
 .float-right { float: right; }
 
+.text-align-center { text-align: center; }
+
 .center-block { display: block; margin-left: auto; margin-right: auto; }
 
 .align-bottom { vertical-align: bottom; }
@@ -88,6 +91,8 @@ body section .order-details-container .order-details-img, body section .order-de
 .align-super { vertical-align: super; }
 
 .float-right { float: right; }
+
+.text-align-center { text-align: center; }
 
 .progress-bar-wrapper { width: 99%; height: 18px; background-color: #393939; padding: 3px; border-radius: 4px; color: #000; }
 .progress-bar-wrapper .progress-bar-fill, .progress-bar-wrapper .progress-bar-fill-66 { height: 100%; display: block; background-color: #1aaf8f; border-radius: 4px; width: 0; -webkit-transition: 0.5s; transition: 0.5s; }

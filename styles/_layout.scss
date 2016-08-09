@@ -91,7 +91,7 @@ body{
 				}
 
 				&.name{
-					width: 90%;
+					width: 95%;
 				}
 			}					
 
@@ -281,7 +281,7 @@ body{
 
 					a{
 
-						font-size: 19px;
+						font-size: $font-size-base + 1;
     					font-weight: 600;
     					letter-spacing: 1px;
 						text-decoration: none;
@@ -294,6 +294,12 @@ body{
 							@include transition (0.5s);
     					}
 					}
+				}
+
+				&.save-quote{
+					width: 100%;
+					@extend .back-link;
+					padding-top: 12px;
 				}
 			}
 
