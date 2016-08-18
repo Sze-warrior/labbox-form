@@ -10,6 +10,7 @@ $(document).ready(function(){
 	var BrowseBtn = $('.btn-details-lg');
 	var progressBarInner = $('.progress-bar-fill');
 	var progressBarInner66 = $('.progress-bar-fill-66');
+	var progressBarInner100 = $('.progress-bar-fill-100');
 
 	//Progress bar animations
 	$(progressBarInner).css('width', '33%');
@@ -17,6 +18,9 @@ $(document).ready(function(){
 
 	$(progressBarInner66).css('width', '66%');
 	$(progressBarInner66).children('span').hide().text('66%').fadeIn('400');	
+
+	$(progressBarInner100).css('width', '100%');
+	$(progressBarInner100).children('span').hide().text('100%').fadeIn('400');	
 
 
 	//Broswe an image button

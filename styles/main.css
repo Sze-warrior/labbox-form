@@ -12,7 +12,7 @@ body section.labelshop-form-container {
 }
 
 body section.labelshop-form-container h3 { 
-	font-size: 20px; 
+	font-size: 18px; 
 	padding-bottom: 15px; 
 	margin: 0; 
 }
@@ -216,6 +216,11 @@ body section.labelshop-form-container .quote-form-container h1 {
 	font-size: 27px; 
 	font-weight: 100; 
 	color: #1aaf8f; 
+	text-align: right;
+}
+
+body section.labelshop-form-container .quote-form-container h3 { 
+	color:#1aaf8f;
 }
 
 body section.labelshop-form-container .quote-form-container .quote-green { 
@@ -235,9 +240,28 @@ body section.labelshop-form-container .quote-form-container .quote-green .quote-
 	font-weight: 500; 
 }
 
+
+body section.labelshop-form-container .quote-grey { 
+    background-color: #dcdcdc;
+    margin: 10px -10px 0px;
+    padding: 8px 10px 0;
+    border-top: 1px solid black;
+}
+
+body section.labelshop-form-container .quote-grey span { 
+    font-size: 11px;
+    color: #2d2d2d;
+}
+
+body section.labelshop-form-container .quote-grey .gear-icon-small { 
+	vertical-align: middle;
+    padding-right: 10px;
+}
+
 body section .order-details-container { 
 	padding-bottom: 25px; 
 }
+
 body section .order-details-container .order-add-img-container .imported-img { 
 	width: 110px; 
 	height: 73px; 
@@ -381,7 +405,6 @@ body section .order-details-container .order-details-img, body section .order-de
 
 .table-container .table-cell { 
 	display: table-cell; 
-	width: 100%; 
 }
 
 .center-block { 
@@ -453,6 +476,31 @@ body section .order-details-container .order-details-img, body section .order-de
 
 .progress-bar-wrapper .progress-bar-fill-66 { 
 	width: 33%; 
+}
+
+.progress-bar-wrapper .progress-bar-fill-66 span { 
+	float: right; 
+	padding: 1px 4px; 
+	font-size: 13px; 
+}
+
+.progress-bar-wrapper .progress-bar-fill, .progress-bar-wrapper .progress-bar-fill-100 { 
+	height: 100%; 
+	display: block; 
+	background-color: #1aaf8f; 
+	border-radius: 4px; 
+	width: 0; 
+	-webkit-transition: 0.5s; 
+	transition: 0.5s; 
+}
+.progress-bar-wrapper .progress-bar-fill span, .progress-bar-wrapper .progress-bar-fill-100 span { 
+	float: right; 
+	padding: 1px 4px; 
+	font-size: 13px; 
+}
+
+.progress-bar-wrapper .progress-bar-fill-100 { 
+	width: 66%; 
 }
 
 .progress-bar-wrapper .progress-bar-fill-66 span { 
